@@ -1,0 +1,3334 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "7ad0c844-dafb-4b8d-9aa9-ff733bca3e8b")
+	(paper "A4")
+	(title_block
+		(title "Display Soldering Diagram")
+		(date "2025-11-13")
+	)
+	(lib_symbols
+		(symbol "EYE_SPI_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "EYESPI"
+				(at -20.32 -1.27 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "U1"
+				(at -17.78 -1.27 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "EYE_SPI_1_1_1"
+				(rectangle
+					(start -15.24 7.62)
+					(end 17.78 -7.62)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+				(pin input line
+					(at -13.97 -10.16 90)
+					(length 2.54)
+					(name "Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -10.16 90)
+					(length 2.54)
+					(name "Lite"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -10.16 90)
+					(length 2.54)
+					(name "Gnd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -10.16 90)
+					(length 2.54)
+					(name "MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 -10.16 90)
+					(length 2.54)
+					(name "MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -10.16 90)
+					(length 2.54)
+					(name "DC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -10.16 90)
+					(length 2.54)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -10.16 90)
+					(length 2.54)
+					(name "TCS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SparkFun-Connector:Conn_01x02_JST_P2.0mm_Horizontal_SMD_LiPo"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "JST_2mm_LiPo"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SparkFun-Connector:JST_1x02_P2.0mm_Horizontal_SMD"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2 Pin 2mm JST Battery Connector"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PROD_ID" "CONN-11443"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_JST_P2.0mm_Horizontal_SMD_LiPo_1_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -3.81 1.27) (xy -3.81 2.54) (xy 3.81 2.54) (xy 3.81 -5.08) (xy -3.81 -5.08)
+						(xy -3.81 -3.81) (xy -1.27 -3.81) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 0.635 2.54)
+					(end 1.905 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.635 -4.445)
+					(end 1.905 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "+"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(text "-"
+					(at 0 -2.54 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 1.27 1.27 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "NC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 1.27 -3.81 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "NC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SparkFun-RF:ESP32-WROOM"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U3"
+				(at 0 -41.91 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESP32-WROOM"
+				(at 0 -39.37 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SparkFun-RF:ESP32-WROOM-32D-DFM_Paste"
+				(at 0 -52.07 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.com/datasheet/2/891/esp32_wroom_32e_esp32_wroom_32ue_datasheet_en-1855879.pdf"
+				(at 0 -54.61 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PROD_ID" "IC-15676"
+				(at -1.27 -57.15 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun RF Radio Bluetooth BT ESP ESP32 Espressif onboard PCB antenna"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "ESP32?WROOM?32*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ESP32-WROOM_1_1"
+				(rectangle
+					(start -12.7 27.94)
+					(end 12.7 -36.83)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 24.13 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -15.24 20.32 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 16.51 0)
+					(length 2.54)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 12.7 0)
+					(length 2.54)
+					(name "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 8.89 0)
+					(length 2.54)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(name "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 1.27 0)
+					(length 2.54)
+					(name "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -6.35 0)
+					(length 2.54)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -10.16 0)
+					(length 2.54)
+					(name "VUSB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -13.97 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -17.78 0)
+					(length 2.54)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -30.48 0)
+					(length 2.54)
+					(name "QWIIC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -39.37 90)
+					(length 2.54)
+					(name "Micro_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -39.37 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -39.37 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -39.37 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -39.37 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -39.37 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49.3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -39.37 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49.4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -39.37 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49.5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -39.37 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49.6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -39.37 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49.7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -39.37 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49.8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -39.37 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49.9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 24.13 180)
+					(length 2.54)
+					(name "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 20.32 180)
+					(length 2.54)
+					(name "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 16.51 180)
+					(length 2.54)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 12.7 180)
+					(length 2.54)
+					(name "MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 8.89 180)
+					(length 2.54)
+					(name "MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 1.27 180)
+					(length 2.54)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -6.35 180)
+					(length 2.54)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -13.97 180)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -17.78 180)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -21.59 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -25.4 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -29.21 180)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -33.02 180)
+					(length 2.54)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SparkFun-Switch:SPDT_Slide_SMD_7.2x3.5mm"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SPDT_Slide_SMD_7.2x3.5mm"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SparkFun-Switch:Slide_DPDT_SMD_7.2x3.5mm"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.sparkfun.com/datasheets/Components/SW_slide_ayz.pdf"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PROD_ID" "SWCH-08179"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mrg Part#" "AYZ0202"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SPDT_Slide_SMD_7.2x3.5mm_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SPDT_Slide_SMD_7.2x3.5mm_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SPDT_Slide_SMD_7.2x3.5mm_1_1"
+				(pin no_connect line
+					(at -5.08 7.62 0)
+					(length 2.54)
+					(hide yes)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(hide yes)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SparkFun-Switch:SPST_Push_SMD_6x3.5mm_h2.5mm"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMD_6x3.5mm_h2.5mm"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SparkFun-Switch:Push_SMD_6x3.5mm"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.sparkfun.com/datasheets/Components/1101.pdf"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PROD_ID" "SWCH-14278"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfg Part#" "8-004 SMD Button 8x3.6mm Height=2.5mm"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun Momentary push switch lever button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SPST_Push_SMD_6x3.5mm_h2.5mm_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SPST_Push_SMD_6x3.5mm_h2.5mm_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 92.71 80.01)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "36d8fe4c-789e-4e98-8ed6-8e92e0e8c1bd")
+	)
+	(junction
+		(at 92.71 60.96)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "44be2341-6346-41c7-bca7-aec7cf613df8")
+	)
+	(junction
+		(at 199.39 100.33)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "57d5fdab-d5ac-40df-87c8-f6b8d6d6adb4")
+	)
+	(junction
+		(at 208.28 132.08)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "7fbb5c37-0654-411a-8de1-6c2ea1bfdae4")
+	)
+	(junction
+		(at 147.32 132.08)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "f2bec79a-14e4-46b6-af11-d69dfcc27bbb")
+	)
+	(wire
+		(pts
+			(xy 190.5 111.76) (xy 190.5 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "0bf3d21e-a397-45d4-a5d5-c9c5b4251163")
+	)
+	(wire
+		(pts
+			(xy 160.02 111.76) (xy 190.5 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "0ed7796c-e2a3-4c07-ac3f-d9bb54c8a15d")
+	)
+	(wire
+		(pts
+			(xy 99.06 121.92) (xy 177.8 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 72 0 1)
+		)
+		(uuid "12ccf089-3cd4-4864-a33e-1b529ea2cd84")
+	)
+	(wire
+		(pts
+			(xy 129.54 73.66) (xy 114.3 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 255 0 1)
+		)
+		(uuid "135323f8-250b-49f4-a155-78da97d88c80")
+	)
+	(wire
+		(pts
+			(xy 129.54 66.04) (xy 106.68 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 128 77 0 1)
+		)
+		(uuid "15b2e953-4cb1-4cd0-b0ef-73df55a80aff")
+	)
+	(wire
+		(pts
+			(xy 168.91 59.69) (xy 180.34 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "19e34fbc-8321-4d8d-8320-9671595e3b82")
+	)
+	(wire
+		(pts
+			(xy 116.84 143.51) (xy 181.61 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 132 1)
+		)
+		(uuid "1a5e540c-8af1-4d50-a8a5-71a08dbe480c")
+	)
+	(wire
+		(pts
+			(xy 168.91 43.18) (xy 168.91 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "1b9d2bc7-0a82-4bfe-bf48-3e514ccccc5b")
+	)
+	(wire
+		(pts
+			(xy 147.32 132.08) (xy 208.28 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "1ff306c8-91f2-400f-b024-9ef7dd1d3d6a")
+	)
+	(wire
+		(pts
+			(xy 180.34 59.69) (xy 180.34 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "236e622e-de49-4c54-b77c-b2c76f96e47b")
+	)
+	(wire
+		(pts
+			(xy 76.2 71.12) (xy 99.06 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 72 0 1)
+		)
+		(uuid "2920bc20-f8ee-4a9b-aad7-46d294a37196")
+	)
+	(wire
+		(pts
+			(xy 160.02 73.66) (xy 190.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "2d481581-2ca0-4dbd-b58f-9713d741e560")
+	)
+	(wire
+		(pts
+			(xy 119.38 77.47) (xy 119.38 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "31019fb0-48aa-4ced-9462-aaea0b8af7ea")
+	)
+	(wire
+		(pts
+			(xy 96.52 123.19) (xy 96.52 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "35705917-3735-49f7-aac4-dab5619bd232")
+	)
+	(wire
+		(pts
+			(xy 160.02 100.33) (xy 199.39 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "35725578-807b-403e-8402-888792d24938")
+	)
+	(wire
+		(pts
+			(xy 181.61 58.42) (xy 181.61 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 255 0 1)
+		)
+		(uuid "44bd6fea-ab43-4937-a268-7e8a6b7148e5")
+	)
+	(wire
+		(pts
+			(xy 119.38 151.13) (xy 127 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "4660bf80-5d47-4639-ac82-b108a6734dae")
+	)
+	(wire
+		(pts
+			(xy 190.5 72.39) (xy 207.01 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "48e59484-4fe8-4471-b95e-4665281be385")
+	)
+	(wire
+		(pts
+			(xy 170.18 41.91) (xy 170.18 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 255 0 1)
+		)
+		(uuid "492212fe-05d5-420d-bdd2-cb0e5ea7f170")
+	)
+	(wire
+		(pts
+			(xy 114.3 73.66) (xy 114.3 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 255 0 1)
+		)
+		(uuid "52c92cdb-e30b-4c16-bad4-9814bf5f6eeb")
+	)
+	(wire
+		(pts
+			(xy 195.58 107.95) (xy 195.58 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "56fe50e2-f8e8-44a1-9eb4-51b99142785d")
+	)
+	(wire
+		(pts
+			(xy 160.02 77.47) (xy 177.8 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 72 0 1)
+		)
+		(uuid "5ad53afb-997f-4ac2-8130-ae22f9e9c6e9")
+	)
+	(wire
+		(pts
+			(xy 129.54 69.85) (xy 115.57 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "5e517b7c-2bd8-4998-953e-87d8a630e757")
+	)
+	(wire
+		(pts
+			(xy 208.28 132.08) (xy 208.28 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "5fd7d8bb-f2ab-4ef1-94d6-241065e221e4")
+	)
+	(wire
+		(pts
+			(xy 181.61 152.4) (xy 186.69 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 132 1)
+		)
+		(uuid "606b199d-a127-4514-b8d4-11c2808851f4")
+	)
+	(wire
+		(pts
+			(xy 96.52 90.17) (xy 76.2 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "665ba7aa-dc4f-4c8f-abf9-d506d0134653")
+	)
+	(wire
+		(pts
+			(xy 199.39 100.33) (xy 210.82 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "67c91a4f-d84e-4942-b846-2e8086b1e7cd")
+	)
+	(wire
+		(pts
+			(xy 181.61 83.82) (xy 207.01 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 255 0 1)
+		)
+		(uuid "6ea9df90-d503-4528-b3ae-e23b0b89de8b")
+	)
+	(wire
+		(pts
+			(xy 208.28 132.08) (xy 210.82 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "734e1655-0e82-471b-bb5d-3e7375cae35a")
+	)
+	(wire
+		(pts
+			(xy 115.57 43.18) (xy 168.91 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "74d24aa5-eb25-40bd-9b64-7c18bd52541a")
+	)
+	(wire
+		(pts
+			(xy 160.02 107.95) (xy 195.58 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "7518d1cc-cab8-4e3d-941d-6c75571cf0b1")
+	)
+	(wire
+		(pts
+			(xy 184.15 62.23) (xy 184.15 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "78d14cd5-a193-40b2-9ebc-3645709f3d86")
+	)
+	(wire
+		(pts
+			(xy 189.23 76.2) (xy 207.01 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 255 1)
+		)
+		(uuid "89e555ff-743d-4111-be53-ce8c40279610")
+	)
+	(wire
+		(pts
+			(xy 129.54 62.23) (xy 116.84 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 132 1)
+		)
+		(uuid "8f53a0c9-04b5-4a50-8895-aa49e34f7a19")
+	)
+	(wire
+		(pts
+			(xy 160.02 62.23) (xy 184.15 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "92f7c3e7-354d-4c40-a9db-907b70465dd8")
+	)
+	(wire
+		(pts
+			(xy 189.23 69.85) (xy 189.23 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 255 1)
+		)
+		(uuid "93453ce8-d2bc-4ac3-b03b-4cea1bdec12f")
+	)
+	(wire
+		(pts
+			(xy 92.71 39.37) (xy 73.66 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "a0926441-cbfa-4700-b09e-b22bfb59d428")
+	)
+	(wire
+		(pts
+			(xy 76.2 80.01) (xy 92.71 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "a3cabfdc-0dd1-4a4b-9a88-f78e323dc209")
+	)
+	(wire
+		(pts
+			(xy 180.34 91.44) (xy 207.01 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "a61a9341-24c5-4bd7-bdaf-10a2f6515b17")
+	)
+	(wire
+		(pts
+			(xy 208.28 152.4) (xy 196.85 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "a67444a6-8ff6-4c6a-bf9a-9745b14b5504")
+	)
+	(wire
+		(pts
+			(xy 190.5 73.66) (xy 190.5 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "aa09b8d6-c022-4e4c-abb5-82bd5e431e55")
+	)
+	(wire
+		(pts
+			(xy 160.02 66.04) (xy 186.69 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 255 255 1)
+		)
+		(uuid "aabbc7ab-02e9-4a62-8405-fe45b4309642")
+	)
+	(wire
+		(pts
+			(xy 160.02 69.85) (xy 189.23 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 255 1)
+		)
+		(uuid "b057441c-ced3-421e-85ba-38c991452bc1")
+	)
+	(wire
+		(pts
+			(xy 147.32 132.08) (xy 147.32 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "b4570cb5-7c78-4000-86ab-df15677dfcd7")
+	)
+	(wire
+		(pts
+			(xy 73.66 60.96) (xy 92.71 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "bd26e8d1-ef36-40fa-8598-1395575a3a8a")
+	)
+	(wire
+		(pts
+			(xy 195.58 60.96) (xy 207.01 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "bf0fa692-a8cb-4880-8bd7-91127dcde2af")
+	)
+	(wire
+		(pts
+			(xy 190.5 123.19) (xy 96.52 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "c4e5cd32-05b2-46cb-9eb1-f3aa4c6da751")
+	)
+	(wire
+		(pts
+			(xy 199.39 100.33) (xy 199.39 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "c5575739-edae-49d0-829e-83838a4a6b81")
+	)
+	(wire
+		(pts
+			(xy 181.61 143.51) (xy 181.61 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 132 1)
+		)
+		(uuid "c5bec640-29ba-413d-9ea8-e14b3f20f40c")
+	)
+	(wire
+		(pts
+			(xy 92.71 60.96) (xy 92.71 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "c65bc1ab-256e-433b-b64b-d127f9a27532")
+	)
+	(wire
+		(pts
+			(xy 170.18 58.42) (xy 181.61 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 255 0 1)
+		)
+		(uuid "cceed0f4-05c0-4ee3-9928-7731d2ed0b87")
+	)
+	(wire
+		(pts
+			(xy 115.57 69.85) (xy 115.57 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "ce7a0436-ed8c-4676-9528-3df9318e5d61")
+	)
+	(wire
+		(pts
+			(xy 76.2 49.53) (xy 106.68 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 128 77 0 1)
+		)
+		(uuid "cf66f8d9-9a5a-411a-842a-7ed62c8d0290")
+	)
+	(wire
+		(pts
+			(xy 92.71 80.01) (xy 92.71 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "d8a6d560-4b70-44f5-a304-b72d3183dbc2")
+	)
+	(wire
+		(pts
+			(xy 186.69 80.01) (xy 207.01 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 255 255 1)
+		)
+		(uuid "dd550276-622b-4ccd-905b-81686fd7008d")
+	)
+	(wire
+		(pts
+			(xy 99.06 71.12) (xy 99.06 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 72 0 1)
+		)
+		(uuid "dd95cd2f-3e72-415b-9996-60a016b55590")
+	)
+	(wire
+		(pts
+			(xy 92.71 132.08) (xy 92.71 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "df9ba6a8-3a93-44a1-8de2-299cafe60a27")
+	)
+	(wire
+		(pts
+			(xy 177.8 77.47) (xy 177.8 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 72 0 1)
+		)
+		(uuid "e0181dcd-6cea-4b18-a33e-5403b55182a3")
+	)
+	(wire
+		(pts
+			(xy 106.68 49.53) (xy 106.68 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 128 77 0 1)
+		)
+		(uuid "e13715d9-7e5e-4d89-9bc9-95fca7c15808")
+	)
+	(wire
+		(pts
+			(xy 116.84 62.23) (xy 116.84 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 132 1)
+		)
+		(uuid "e2d74237-9440-41b9-8e67-cfce94ac067e")
+	)
+	(wire
+		(pts
+			(xy 186.69 66.04) (xy 186.69 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 255 255 1)
+		)
+		(uuid "e3e6845e-23b2-40ee-aa86-6f5dbe8ecb70")
+	)
+	(wire
+		(pts
+			(xy 114.3 41.91) (xy 170.18 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 255 0 1)
+		)
+		(uuid "ea22fa78-1547-493e-a92c-2131e430c399")
+	)
+	(wire
+		(pts
+			(xy 147.32 151.13) (xy 137.16 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "ed5ece55-bd8f-4936-bfcf-3e9bb4aff653")
+	)
+	(wire
+		(pts
+			(xy 129.54 77.47) (xy 119.38 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "eec1460b-8a14-4703-a2b9-b812868cbc38")
+	)
+	(wire
+		(pts
+			(xy 184.15 87.63) (xy 207.01 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "f2b9c074-5d73-4d3b-b3c9-6e98e9ce36cf")
+	)
+	(wire
+		(pts
+			(xy 210.82 100.33) (xy 210.82 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "f475e519-be8b-4d17-bea3-c7e9b4d6578f")
+	)
+	(wire
+		(pts
+			(xy 199.39 68.58) (xy 207.01 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "f56fe3e7-5427-447f-84b8-4a68f824f77e")
+	)
+	(wire
+		(pts
+			(xy 92.71 132.08) (xy 147.32 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "ff0e6b91-a867-4d5f-8e00-fea08b9b77b5")
+	)
+	(global_label "Bluetooth Antenna"
+		(shape input)
+		(at 144.78 50.8 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10ab101f-ecca-4023-8a78-408a3e440d7c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.78 71.3229 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Switch:SPST_Push_SMD_6x3.5mm_h2.5mm")
+		(at 76.2 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4985abe1-87a5-4850-80f9-3e28ba82fbee")
+		(property "Reference" "SW3"
+			(at 77.47 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Reset Button"
+			(at 77.47 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SparkFun-Switch:Push_SMD_6x3.5mm"
+			(at 81.28 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sparkfun.com/datasheets/Components/1101.pdf"
+			(at 86.36 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 91.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "SWCH-14278"
+			(at 83.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part#" "8-004 SMD Button 8x3.6mm Height=2.5mm"
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2fd5c536-9a0f-4c16-a025-e23e6c238567")
+		)
+		(pin "1"
+			(uuid "19a60167-0373-4f70-9b5d-c4d584ebbb73")
+		)
+		(instances
+			(project ""
+				(path "/7ad0c844-dafb-4b8d-9aa9-ff733bca3e8b"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Switch:SPDT_Slide_SMD_7.2x3.5mm")
+		(at 73.66 44.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d3dd8d4-5dd5-47c9-9a73-91ed110946aa")
+		(property "Reference" "SW1"
+			(at 77.47 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Sleep"
+			(at 77.47 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Switch:Slide_DPDT_SMD_7.2x3.5mm"
+			(at 66.04 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sparkfun.com/datasheets/Components/SW_slide_ayz.pdf"
+			(at 63.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 55.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "SWCH-08179"
+			(at 60.96 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mrg Part#" "AYZ0202"
+			(at 58.42 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "f8212670-cd34-499d-a00d-10c7bf2b9884")
+		)
+		(pin "2"
+			(uuid "024361aa-f79a-4f70-ab38-3cd25212a1d3")
+		)
+		(pin "6"
+			(uuid "6fe89f8d-c9ce-455b-b768-9da36dd20438")
+		)
+		(pin "4"
+			(uuid "cb66c949-ac79-4f21-b27d-401ad9cdbaba")
+		)
+		(pin "1"
+			(uuid "cc0e66b2-b30c-49f4-bbe3-8bfedd9ddcdf")
+		)
+		(pin "3"
+			(uuid "b2890b6a-ec28-458f-a3dd-eeb077513668")
+		)
+		(instances
+			(project ""
+				(path "/7ad0c844-dafb-4b8d-9aa9-ff733bca3e8b"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Switch:SPST_Push_SMD_6x3.5mm_h2.5mm")
+		(at 191.77 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ae125b0-8e2f-4d5e-8ff8-5be05b072c9b")
+		(property "Reference" "SW5"
+			(at 191.77 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Right Turn Signal"
+			(at 191.77 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Switch:Push_SMD_6x3.5mm"
+			(at 191.77 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sparkfun.com/datasheets/Components/1101.pdf"
+			(at 191.77 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 191.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "SWCH-14278"
+			(at 191.77 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part#" "8-004 SMD Button 8x3.6mm Height=2.5mm"
+			(at 191.77 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4e6a2b1a-1491-4bd4-80cc-e659e6bfa226")
+		)
+		(pin "1"
+			(uuid "9cbae1b7-8f7e-4dfd-9eb4-b1d15c1c8c26")
+		)
+		(instances
+			(project "Display Module Soldering Schematic"
+				(path "/7ad0c844-dafb-4b8d-9aa9-ff733bca3e8b"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Switch:SPDT_Slide_SMD_7.2x3.5mm")
+		(at 73.66 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6045b8c7-7bd8-412e-84e4-9aeddfaee1a3")
+		(property "Reference" "SW2"
+			(at 77.47 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Debug"
+			(at 77.47 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Switch:Slide_DPDT_SMD_7.2x3.5mm"
+			(at 66.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sparkfun.com/datasheets/Components/SW_slide_ayz.pdf"
+			(at 63.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 55.88 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "SWCH-08179"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mrg Part#" "AYZ0202"
+			(at 58.42 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "abeeac85-1b3f-4ea2-87a9-bd8b417b50df")
+		)
+		(pin "2"
+			(uuid "9e90cfaa-1f48-4501-b506-e1614f83c64a")
+		)
+		(pin "1"
+			(uuid "3ef20116-eaa1-4079-9cce-4c06cf63a7b7")
+		)
+		(pin "3"
+			(uuid "df7c1bb4-7a6d-44e3-b05b-0398388de8b7")
+		)
+		(pin "5"
+			(uuid "c0897a79-b42c-4163-babd-64de266c58fa")
+		)
+		(pin "6"
+			(uuid "e50979d3-117e-40b8-8891-6bc12f35ef27")
+		)
+		(instances
+			(project ""
+				(path "/7ad0c844-dafb-4b8d-9aa9-ff733bca3e8b"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "EYE_SPI_1")
+		(lib_id "Dynamic Brake Light:EYE_SPI")
+		(at 217.17 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "799711e7-0c1a-4cb5-a443-6b8ce222a696")
+		(property "Reference" "U1"
+			(at 226.06 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EYE SPI"
+			(at 226.06 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "4e6f7971-c544-4d17-ac77-c31da3988434")
+		)
+		(pin ""
+			(uuid "a468e8ca-749d-4534-92ea-5477ee840800")
+		)
+		(pin ""
+			(uuid "17bae32c-b645-46ee-a9c6-a95f699deca6")
+		)
+		(pin ""
+			(uuid "c0b282cf-86c3-492c-94f9-49fdd68ef26a")
+		)
+		(pin ""
+			(uuid "35097b83-9eae-41f9-bc3e-f26177c17da0")
+		)
+		(pin ""
+			(uuid "d7dd2824-d050-48b5-862b-9e4910a337b3")
+		)
+		(pin ""
+			(uuid "cfa6bb9c-e234-4386-96d1-d5c4c6af249a")
+		)
+		(pin ""
+			(uuid "d64cb87d-aa60-437c-95bc-505c2563115b")
+		)
+		(pin ""
+			(uuid "31174a79-071c-498f-b449-6e717e63b8f7")
+		)
+		(instances
+			(project ""
+				(path "/7ad0c844-dafb-4b8d-9aa9-ff733bca3e8b"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Switch:SPST_Push_SMD_6x3.5mm_h2.5mm")
+		(at 132.08 151.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c472bc70-f033-4bc3-b7b2-368887925bbc")
+		(property "Reference" "SW4"
+			(at 132.08 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Left Turn Signal"
+			(at 132.08 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Switch:Push_SMD_6x3.5mm"
+			(at 132.08 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sparkfun.com/datasheets/Components/1101.pdf"
+			(at 132.08 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 132.08 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "SWCH-14278"
+			(at 132.08 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part#" "8-004 SMD Button 8x3.6mm Height=2.5mm"
+			(at 132.08 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0e677cfe-2434-4457-9e65-19c2896274b5")
+		)
+		(pin "1"
+			(uuid "5fd0f1b6-f3be-4444-a514-c2ff517a2917")
+		)
+		(instances
+			(project "Display Module Soldering Schematic"
+				(path "/7ad0c844-dafb-4b8d-9aa9-ff733bca3e8b"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Connector:Conn_01x02_JST_P2.0mm_Horizontal_SMD_LiPo")
+		(at 128.27 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfe710f6-e644-4736-8458-b9eb72539557")
+		(property "Reference" "J2"
+			(at 133.35 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST_2mm_LiPo"
+			(at 133.35 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:JST_1x02_P2.0mm_Horizontal_SMD"
+			(at 128.27 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2 Pin 2mm JST Battery Connector"
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CONN-11443"
+			(at 128.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "NC2"
+			(uuid "f0a19540-9d31-443d-a188-b3db3b7c73c6")
+		)
+		(pin "2"
+			(uuid "4852478c-55cc-49af-93f1-225d98e19f34")
+		)
+		(pin "NC1"
+			(uuid "8da4a4c1-f55a-45ca-8ecd-889808583779")
+		)
+		(pin "1"
+			(uuid "95ce081f-d46e-4279-b36b-db42563dafb0")
+		)
+		(instances
+			(project "Display Module Soldering Schematic"
+				(path "/7ad0c844-dafb-4b8d-9aa9-ff733bca3e8b"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-RF:ESP32-WROOM")
+		(at 144.78 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f774590d-5913-4a25-92f5-bf468ac136e3")
+		(property "Reference" "U1"
+			(at 144.78 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESP32-WROOM"
+			(at 144.78 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-RF:ESP32-WROOM-32D-DFM_Paste"
+			(at 144.78 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/891/esp32_wroom_32e_esp32_wroom_32ue_datasheet_en-1855879.pdf"
+			(at 144.78 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "IC-15676"
+			(at 143.51 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "fbe66791-8d9a-425f-bdf2-9f5f6c2f8eee")
+		)
+		(pin "15"
+			(uuid "ce4a6c57-45f0-4973-a4ec-f9d587780fc8")
+		)
+		(pin ""
+			(uuid "e023d524-87fd-4cea-983e-7357118038a6")
+		)
+		(pin ""
+			(uuid "9e3cacbb-698f-4a85-998b-960801836788")
+		)
+		(pin ""
+			(uuid "3561fb2b-abdd-4ec3-ad6f-5dc9a2e7c8fc")
+		)
+		(pin ""
+			(uuid "e0515dd7-2478-4f81-b076-4f294c9ee634")
+		)
+		(pin ""
+			(uuid "f06c7619-1d6f-43f9-a17e-4fb63a0103b3")
+		)
+		(pin ""
+			(uuid "1bbcd5fe-9636-4b14-9985-57d00a495746")
+		)
+		(pin ""
+			(uuid "92b070cb-6cd0-4a39-9dd8-9c58b16670a1")
+		)
+		(pin ""
+			(uuid "9ca81b36-fcc5-403c-acbd-f2da79d7be04")
+		)
+		(pin ""
+			(uuid "839456d8-af1e-4ea3-8035-5fafe26b58b4")
+		)
+		(pin ""
+			(uuid "a20de123-79d8-4300-8dd9-9747e66a7b50")
+		)
+		(pin ""
+			(uuid "0b1ee1f0-c60a-425c-97f2-be73d8b2beee")
+		)
+		(pin ""
+			(uuid "c9acc9cf-7247-4400-8139-d87c448f071d")
+		)
+		(pin ""
+			(uuid "622db8e1-0915-4470-af2b-9c8833f747d3")
+		)
+		(pin "38"
+			(uuid "6e4ae62c-a2ab-40d4-bd0c-36a298d0947a")
+		)
+		(pin "49.1"
+			(uuid "382e01b9-f269-43bf-a1fd-b458bd945820")
+		)
+		(pin "49.2"
+			(uuid "f15866b1-fbd6-45d4-a1cf-ea53fb50f1ab")
+		)
+		(pin "49.3"
+			(uuid "601aca21-ac7c-482b-9ee4-f4bb9bda7d25")
+		)
+		(pin "49.4"
+			(uuid "6c91482a-6147-4267-86cd-c4cd982faf4a")
+		)
+		(pin "49.5"
+			(uuid "5a42c8e8-2c30-46f9-a521-b3d354032fdf")
+		)
+		(pin "49.6"
+			(uuid "56c579d7-5988-495c-a73f-503869ccec48")
+		)
+		(pin "49.8"
+			(uuid "83bb95bd-0cfd-4807-bdd6-27e04d72552d")
+		)
+		(pin ""
+			(uuid "a8580091-2cc5-4cd0-9040-3f87f85d414e")
+		)
+		(pin ""
+			(uuid "99bf8afe-020f-4a67-800a-7884547d212a")
+		)
+		(pin ""
+			(uuid "ebe715ab-722c-4a5f-b580-d223f11a6b8b")
+		)
+		(pin ""
+			(uuid "a38f417f-74e3-48e1-8a54-28a5655761e7")
+		)
+		(pin ""
+			(uuid "a7b9ff68-93e0-4ecf-a87a-184adeda63d8")
+		)
+		(pin ""
+			(uuid "1372d3a9-359f-46b4-b7da-c51d98ba3557")
+		)
+		(pin "49.9"
+			(uuid "b82abaf8-69cc-471f-b9f5-47bc39324551")
+		)
+		(pin ""
+			(uuid "22177bdd-3d0d-4fff-a168-8668ba6fd56e")
+		)
+		(pin "49.7"
+			(uuid "1ec5f9af-6156-43e6-bed1-c206f2f07f1d")
+		)
+		(pin ""
+			(uuid "be5d2525-b5ed-4222-b187-d791c8426481")
+		)
+		(pin ""
+			(uuid "0e51697d-0a32-44ce-a31d-95a754d482ad")
+		)
+		(pin ""
+			(uuid "58395758-c09f-4ba4-8086-eef4b67a2887")
+		)
+		(pin ""
+			(uuid "a16951f1-59fd-4d95-b325-4f032f965dc0")
+		)
+		(pin ""
+			(uuid "822962a3-e890-4238-9d77-b14197090bd2")
+		)
+		(pin ""
+			(uuid "121a7cbe-e57c-4cd0-b0f7-f8e85dcaa69e")
+		)
+		(pin ""
+			(uuid "bd886d87-f5d4-4dd9-a891-fb0d47aec329")
+		)
+		(pin ""
+			(uuid "f2eb2b9b-4bf5-4fc9-862a-462fade33f8d")
+		)
+		(pin ""
+			(uuid "d7256a1b-f496-4a0c-a9df-8d850e5a21b4")
+		)
+		(instances
+			(project ""
+				(path "/7ad0c844-dafb-4b8d-9aa9-ff733bca3e8b"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -4,6 +4,6 @@ This repository holds the final versions of all the files created for the Dynami
 
 # Folder Structure
 
-The "Main Project" folder contains final versions of all the files create for the Dynamic Brake Light, organized into CAD, code, electrical schematics and presentation materials categories.
+The "Main Project" folder contains final versions of all the files create for the Dynamic Brake Light, organized into CAD, code, soldering and assembly, and presentation materials and technical documents.
 
 The "Team Members" folder holds folders containing each team member's contributions to the Dynamic Brake Light.  These personal folders are organized in a similar manner to the "Main Project" folder.

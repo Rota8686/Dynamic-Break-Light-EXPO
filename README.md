@@ -10,6 +10,6 @@ note: Mitchell Vallis is in Liza Gunther's hands because he had a wedding obliga
 
 # Folder Structure
 
-The "Main Project" folder contains final versions of all the files create for the Dynamic Brake Light, organized into CAD, code, soldering and assembly, and presentation materials and technical documents.
+The "Main Project" folder contains final versions of all the files create for the Dynamic Brake Light, organized into CAD, code, soldering and assembly, presentation materials and technical documents, and expo photos.
 
-The "Team Members" folder holds folders containing each team member's contributions to the Dynamic Brake Light.  These personal folders are organized in a similar manner to the "Main Project" folder.
+The "Team Members" folder holds folders containing each team member's contributions to the Dynamic Brake Light.  These personal folders are organized in a similar manner to the "Main Project" folder, minus an "expo photos" folder.  

@@ -2,7 +2,7 @@
 
 This repository holds the final versions of all the files created for the expo prize winning Dynamic Brake Light.
 
-![IMG_5142](https://github.com/user-attachments/assets/a6fd0acf-6a74-420a-a9eb-d703bc281743)
+![Expo Winning Photo Cropped](https://github.com/user-attachments/assets/50784cde-d29c-4acf-a182-fd5e901e0b3b)
 
 Left to Right: Jacob Nguyen, Roman Tagliola, Rowan McCune, Mitchell Vallis, and Liza Gunther (TA)
 
